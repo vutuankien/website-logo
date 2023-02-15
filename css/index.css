@@ -1,0 +1,409 @@
+#header{
+      width: 100%;
+      height: 45px;
+      background-color:#fff;
+      box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+      position: fixed;
+      top: 0;
+      z-index: 1;
+}
+.nav{
+      float: left;
+}
+#header .nav .nav-item{
+      padding:0px 16px;
+      display: block;
+}
+#header .nav .nav-item i{
+      height: 45px;
+      line-height: 45px;
+      font-size: 15px;
+}
+#header .nav .nav-item a{
+      font-size: 15px;
+      color:#000;
+      text-transform: uppercase;
+      line-height: 45px;
+      text-decoration: none;
+      font-family: "Lato", sans-serif;
+}
+#header .nav .nav-item:hover{
+      background-color: #ccc;
+}
+#header .btn-search,.btn-collapse{
+      float: right;
+      top:0;
+      height: 45px;
+      line-height: 45px;
+      padding:0 16px;
+      display: block;
+}
+#header .btn-search:hover{
+      background-color: red;
+      color:#fff
+}
+
+#slider{
+      position: relative;
+      background-image: url('../website-imges/parallax1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 400px;
+      opacity: 0.75;
+      background-position: center;
+}
+#slider .slider-text{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      font-size: 25px;
+      color:#fff;
+      background-color: #000;
+      text-transform: uppercase;
+      letter-spacing: 10px;
+      font-family:"Lato", sans-serif;
+      padding:12px 24px;
+      line-height: 43.2px;
+}
+
+#about{
+      padding:64px 16px;
+}
+.about-title{
+      text-align: center;
+      color:#777;
+      text-transform: uppercase;
+      font-family: "Lato", sans-serif;
+      font-weight: 400;
+      line-height: 1.8;
+      margin: 10px auto;
+      font-size: 24px;
+}
+.about-des{
+      text-align: center;
+      color:#777;
+      text-transform: capitalize;
+      font-family: "Lato", sans-serif;
+      font-weight: 400;
+      line-height: 1.8;
+      margin: 10px auto;
+      font-size: 15px;
+      font-style: italic;
+}
+.about-para{
+      text-align: justify;
+      margin:15px auto;
+      color:#777;
+      text-transform: capitalize;
+      font-family: "Lato", sans-serif;
+      font-weight: 400;
+      line-height: 1.8;
+      font-size: 15px;
+      padding: 0 20px;
+}
+#introduce{
+      padding: 12px 16px;
+}
+.introduce-left i{
+      text-align: center;
+      display: block;
+      margin:15px 0;
+      font-style: normal;
+      color: #333;
+      font-weight: 400;
+}
+.introduce-left img{
+      opacity: 0.6;
+      padding: 12px 24px;
+}
+.introduce-right .introduce-para{
+      text-align: justify;
+      display: block;
+      margin:15px 0;
+      font-style: normal;
+      color: #777;
+      font-weight: 400;
+      line-height: 2;
+}
+
+#skill{
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-bottom: 64px;
+}
+#skill i{
+      float: left;
+      margin-right: 10px;
+}
+.label-skill{
+      font-size: 15px;
+      letter-spacing: 10px;
+      line-height: 1.8;
+      text-transform: capitalize;
+      font-family: "Lato", sans-serif;
+      color: #777;
+      margin: 15px 0;
+}
+
+#skill .skill-title{
+      text-align: center;
+      font-size: 20px;
+      font-family: "Lato", sans-serif;
+      color: #777;
+      font-weight: 400;
+      text-transform: none;
+      padding:18px 0;
+      margin: 16px 0;
+}
+.range-parent{
+      background-color: #a5a3a3;
+      width: 100%;
+      height: 35px;
+}
+.range-child{
+      background-color: #333;
+      height: 35px;
+      text-align: center;
+      line-height: 35px;
+      color:#fff;
+}
+.first{width: 90%;}
+.second{width: 85%;}
+.third{width: 75%;}
+
+
+#number{
+      background-color: #656464;
+      padding:16px 0 ;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+}
+
+.num{
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 25px;
+}
+.object{
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 15px;
+} 
+
+
+#portfolio{
+      background: url("../website-imges/parallax2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 400px;
+      background-position: center;
+      background-attachment: scroll;
+      opacity: 0.75;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.portfolio-items{
+      font-size: 50px;
+      color: #fff;
+      font-family: "Lato",sans-serif;
+      text-transform: uppercase;
+      line-height: 1.8;
+      letter-spacing: 15px;
+      font-weight: 400;
+}
+#working{
+      padding:64px 16px;
+}
+.working-title{
+      text-align: center;
+      margin: 10px 0;
+      font-size: 25px;
+      color:#777;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-family: "Lato",sans-serif;
+}
+.working-des{
+      margin:15px 0;
+      text-align: center;
+      font-size: 15px;
+      font-style: italic;
+      letter-spacing: 4px;
+      font-family: "Lato",sans-serif;
+      color:#777;
+}
+
+.wrapper{
+      display: flex;
+      flex-direction: row;
+      margin:10px 0;
+}
+.wrapper img{
+      width: 25%;
+      padding:5px 10px;
+      filter: grayscale(25px);
+}
+.wrapper img:hover{
+      opacity: 0.6;
+      cursor: pointer;
+}
+.btn-loading{
+      margin:64px auto;
+      text-align: center;
+      color:#000;
+      background-color: #b9b9b9;
+      padding:12px 24px;
+      display: block;
+      border: none;
+      outline: none;
+      font-size: 15px;
+      text-transform: capitalize;
+      font-family: "Lato",sans-serif;
+      letter-spacing: 4px;
+      font-weight: 400;
+      border-radius: 25px;
+}
+.btn-loading:hover{
+      color:#fff;
+      background-color: #000;
+      cursor: pointer;
+}
+
+#contact{
+      background: url("../website-imges/parallax3.jpg");
+      background-repeat: no-repeat;
+      min-height: 400px;
+      background-size: cover;
+      background-attachment:scroll;
+      filter: grayscale(50%);
+      position: relative;
+      opacity: 0.75;
+      margin-bottom: 50px;
+}
+
+.contact-title{
+      font-size: 50px;
+      color: #fff;
+      font-family: "Lato",sans-serif;
+      text-transform: uppercase;
+      line-height: 1.8;
+      letter-spacing: 15px;
+      font-weight: 400;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+}
+.embrace{
+      display: flex;
+      flex-direction: row;
+}
+.embrace img{
+      width: 25%;
+      padding:0px 16px;
+}
+.infor{
+      margin: 16px 0;
+      padding:0.15rem 16px;
+      font-size: 25px !important;
+      color:#777;
+      font-weight: 300;
+      font-family: "Lato",sans-serif;
+}
+.infor i{
+      margin-right: 16px;
+}
+.slogan{
+      margin:10px 0;
+      font-size: 15px;
+      color:#777;
+      font-family: "Lato", sans-serif;
+}
+.wrap{
+      display: flex;
+      flex-direction: row;
+}
+.wrap img{
+      padding: 15px;
+      margin-right:20px;
+      width: 25%;
+
+}
+#infor ul{
+      display: block;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+}
+#infor ul i{
+      float: left;
+}
+.form_section{
+      display: flex;
+      flex-direction: column;
+
+}
+.wrap >button >i{
+      float: left;
+      display: flex;
+      flex-direction: row;
+      line-height: 1.8;
+      padding:none;
+}
+.wrap ul{
+      padding: none;
+      margin-top: 10px;
+}
+form{
+      margin:10px 20px
+}
+form>button{
+      float: right;
+}
+form > button >i{
+      margin-top: 5px;
+      margin-right: 5px;
+}
+
+/* footer */
+#footer{
+      background-color: #000;
+      padding:65px 0;
+      margin:0 auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      color:#ccc;
+      text-decoration: none;
+      flex-direction: column;
+      align-items: center;
+}
+#footer > button{
+      padding: 15px 15px;
+      width: fit-content;
+}
+#footer button:hover{
+      background-color: #333;
+      cursor: pointer;
+}
+#footer button:hover a{
+      color:#fff;
+}
+#footer a{
+      color:#000000;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-size: 15px;
+}
+#footer i{
+      margin-right: 15px;
+}
+.icons{
+      display: block;
+      margin-top: 10px;
+}
